@@ -2,7 +2,7 @@
 	<div class="nav-container">
 		<nav>
 			<a href="/">Home</a>
-			<a href="/">Projects</a>
+			<a href="/projects">Projects</a>
 			<a href="/">About</a>
 		</nav>
 	</div>
