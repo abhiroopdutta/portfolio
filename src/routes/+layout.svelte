@@ -24,6 +24,8 @@
 
 	.nav-container {
 		display: flex;
+		position: sticky;
+		top: min(20vh, 2rem);
 	}
 
 	@media (min-width: 40em) {
@@ -35,7 +37,7 @@
 	nav {
 		display: flex;
 		justify-content: space-between;
-		background-color: bisque;
+		background-color: #ffe7be;
 		padding: 0.8rem 1rem;
 		border: 2px solid #3d3c3c;
 		border-radius: 26px;
@@ -46,8 +48,9 @@
 		text-decoration: none;
 		text-transform: uppercase;
 		font-family: 'Big Shoulders Display', cursive;
+		font-size: clamp(1rem, 1vw, 2rem);
 		font-weight: 800;
 		color: #3d3c3c;
-		padding: 0 min(10vw, 1.5rem);
+		padding: 0 min(6vw, 1.5rem);
 	}
 </style>

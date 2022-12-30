@@ -1,74 +1,125 @@
-<div class="parent-container">
-	<header>
-		<h1 class="profession-first">Web</h1>
-		<h1 class="profession-last">Developer</h1>
-	</header>
+<section class="parent-section">
+	<section class="left-panel">
+		<header>
+			<h1 class="profession-first bungee">Web</h1>
+			<h1 class="profession-last bungee">Developer</h1>
+		</header>
 
-	<section>
-		<h1 class="name">Abhiroop</h1>
-		<ul>
-			<li>react</li>
-			<li>flask</li>
-			<li>mongo</li>
-			<li>mysql</li>
-			<li>docker</li>
-			<li>nginx</li>
-			<li>git</li>
-			<li>bash</li>
-			<li>aws ec2</li>
-		</ul>
+		<article>
+			<section class="name-skills">
+				<h1 class="name shoulder-800">Abhiroop</h1>
+				<ul>
+					<li>react</li>
+					<li>flask</li>
+					<li>mongo</li>
+					<li>mysql</li>
+					<li>docker</li>
+					<li>nginx</li>
+					<li>git</li>
+					<li>bash</li>
+					<li>aws ec2</li>
+				</ul>
+			</section>
+			<address>India, 2023</address>
+		</article>
 	</section>
-</div>
+
+	<section class="right-panel" />
+</section>
 
 <style>
 	:root {
-		background-color: #ff8e8e;
+		background-color: #ffd68e;
 	}
 
-	.profession-first,
-	.profession-last {
+	h1,
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+
+	.shoulder-800 {
+		font-family: 'Big Shoulders Display', cursive;
+		font-weight: 600;
+	}
+
+	.bungee {
 		font-family: 'Bungee Shade', cursive;
-		text-transform: uppercase;
-		color: #282727;
-		line-height: 1rem;
 		font-weight: 400;
 	}
 
+	.right-panel {
+		display: none;
+	}
+
+	@media (min-width: 50em) {
+		.right-panel {
+			display: flex;
+			justify-content: flex-end;
+		}
+	}
+
+	.left-panel {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		gap: 1rem;
+	}
+
+	header {
+		display: flex;
+		flex-direction: column;
+	}
+
 	.profession-first {
-		font-size: 6rem;
+		font-size: clamp(5rem, 6vw, 10rem);
+		line-height: 1.2;
 	}
 	.profession-last {
-		font-size: 3rem;
+		font-size: clamp(2.4rem, 6vw, 10rem);
+		line-height: 1.2;
 	}
 
-	.name {
-		font-family: 'Big Shoulders Display', cursive;
-		text-transform: uppercase;
-		color: #282727;
-		writing-mode: vertical-lr;
-		transform: rotate(180deg);
-		font-size: 9rem;
-		line-height: 0;
-		font-weight: 800;
-		margin: 0 3.8rem;
-	}
-
-	section {
+	article {
 		display: flex;
+		justify-content: space-between;
 		align-items: flex-end;
 	}
 
-	ul {
-		list-style-type: none;
-		margin: 0;
-		padding: 0 1rem;
+	.name-skills {
+		display: flex;
+		align-items: flex-end;
+		gap: 1rem;
 	}
+
+	.name {
+		writing-mode: vertical-lr;
+		transform: rotate(180deg);
+		text-transform: uppercase;
+		font-size: 20vh;
+		line-height: 0.9;
+	}
+
 	li {
 		font-family: 'Big Shoulders Display', cursive;
 		font-weight: 600;
-		text-transform: uppercase;
-		color: #282727;
-		font-size: 1.8rem;
+		font-size: 4vh;
 		letter-spacing: 1rem;
+		text-transform: uppercase;
+	}
+	address {
+		display: none;
+	}
+	@media (min-width: 50em) {
+		address {
+			display: block;
+			font-family: 'Big Shoulders Display', cursive;
+			font-weight: 600;
+			font-size: 6vh;
+			font-style: normal;
+			text-transform: uppercase;
+			line-height: 0.9;
+		}
 	}
 </style>
