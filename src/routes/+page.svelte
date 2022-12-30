@@ -32,16 +32,8 @@
 		background-color: #ffd68e;
 	}
 
-	h1,
 	ul {
-		margin: 0;
-		padding: 0;
 		list-style: none;
-	}
-
-	.shoulder-800 {
-		font-family: 'Big Shoulders Display', cursive;
-		font-weight: 600;
 	}
 
 	.bungee {

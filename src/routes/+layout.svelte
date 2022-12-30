@@ -21,6 +21,15 @@
 	.layout {
 		margin: min(20vh, 2rem) min(5vw, 2rem);
 	}
+	:global(.shoulder-800) {
+		font-family: 'Big Shoulders Display', cursive;
+		font-weight: 600;
+		line-height: 1;
+	}
+	:global(*) {
+		margin: 0;
+		padding: 0;
+	}
 
 	.nav-container {
 		display: flex;
