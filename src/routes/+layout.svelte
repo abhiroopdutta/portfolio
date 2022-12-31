@@ -24,7 +24,7 @@
 
 <style>
 	.layout {
-		margin: min(20vh, 2rem) min(5vw, 2rem);
+		margin: min(20vh, 2rem) min(5vw, 4rem);
 	}
 	:global(.shoulder-600) {
 		font-family: 'Big Shoulders Display', cursive;
