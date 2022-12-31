@@ -30,6 +30,10 @@
 		font-family: 'Big Shoulders Display', cursive;
 		font-weight: 600;
 	}
+	:global(.shoulder-400) {
+		font-family: 'Big Shoulders Display', cursive;
+		font-weight: 400;
+	}
 	:global(.monster-400) {
 		font-family: 'Montserrat', sans-serif;
 		font-weight: 400;
@@ -66,7 +70,7 @@
 	nav {
 		display: flex;
 		justify-content: space-between;
-		background-color: #ffe7be;
+		background-color: #ffffff;
 		padding: 0.8rem 1rem;
 		border: 2px solid #3d3c3c;
 		border-radius: 26px;
