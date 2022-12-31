@@ -1,5 +1,6 @@
 <div class="layout">
 	<div class="nav-container">
+		<h2 class="logo shoulder-800">AbhiroopDutta&#8482;</h2>
 		<nav>
 			<a href="/">Home</a>
 			<a href="/projects">Projects</a>
@@ -36,10 +37,19 @@
 		position: sticky;
 		top: min(20vh, 2rem);
 	}
+	.logo {
+		display: none;
+	}
 
 	@media (min-width: 40em) {
 		.nav-container {
-			justify-content: end;
+			justify-content: space-between;
+			align-items: center;
+		}
+		.logo {
+			display: block;
+			font-size: 2rem;
+			letter-spacing: 1px;
 		}
 	}
 
