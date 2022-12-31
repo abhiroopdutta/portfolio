@@ -7,7 +7,7 @@
 
 		<article>
 			<section class="name-skills">
-				<h1 class="name shoulder-800">Abhiroop</h1>
+				<h1 class="name shoulder-600">Abhiroop</h1>
 				<ul>
 					<li>react</li>
 					<li>flask</li>

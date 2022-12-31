@@ -1,6 +1,6 @@
 <div class="layout">
 	<div class="nav-container">
-		<h2 class="logo shoulder-800">AbhiroopDutta&#8482;</h2>
+		<h2 class="logo shoulder-600">AbhiroopDutta&#8482;</h2>
 		<nav>
 			<a href="/">Home</a>
 			<a href="/projects">Projects</a>
@@ -22,10 +22,9 @@
 	.layout {
 		margin: min(20vh, 2rem) min(5vw, 2rem);
 	}
-	:global(.shoulder-800) {
+	:global(.shoulder-600) {
 		font-family: 'Big Shoulders Display', cursive;
 		font-weight: 600;
-		line-height: 1;
 	}
 	:global(*) {
 		margin: 0;
@@ -39,6 +38,7 @@
 	}
 	.logo {
 		display: none;
+		line-height: 1;
 	}
 
 	@media (min-width: 40em) {
