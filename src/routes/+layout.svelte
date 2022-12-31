@@ -37,6 +37,8 @@
 	:global(*) {
 		margin: 0;
 		padding: 0;
+		list-style: none;
+		text-decoration: none;
 	}
 
 	.nav-container {
@@ -72,7 +74,6 @@
 	}
 
 	a {
-		text-decoration: none;
 		text-transform: uppercase;
 		font-family: 'Big Shoulders Display', cursive;
 		font-size: clamp(1rem, 1vw, 2rem);

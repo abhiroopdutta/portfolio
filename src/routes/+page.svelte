@@ -32,10 +32,6 @@
 		background-color: #ffd68e;
 	}
 
-	ul {
-		list-style: none;
-	}
-
 	.bungee {
 		font-family: 'Bungee Shade', cursive;
 		font-weight: 400;
