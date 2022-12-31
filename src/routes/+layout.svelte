@@ -13,8 +13,12 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com" />
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 	<link
-		href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;800&family=Bungee+Shade&display=swap"
+		href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;600;800&family=Bungee+Shade&family=Montserrat&display=swap"
 		rel="stylesheet"
+	/>
+	<link
+		rel="stylesheet"
+		href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
 	/>
 </svelte:head>
 
@@ -25,6 +29,10 @@
 	:global(.shoulder-600) {
 		font-family: 'Big Shoulders Display', cursive;
 		font-weight: 600;
+	}
+	:global(.monster-400) {
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 400;
 	}
 	:global(*) {
 		margin: 0;
