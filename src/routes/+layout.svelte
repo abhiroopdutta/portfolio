@@ -13,7 +13,7 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com" />
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 	<link
-		href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;600;800&family=Bungee+Shade&family=Montserrat&display=swap"
+		href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;600;800&family=Bungee+Shade&family=Montserrat:wght@500&display=swap"
 		rel="stylesheet"
 	/>
 	<link
@@ -34,9 +34,9 @@
 		font-family: 'Big Shoulders Display', cursive;
 		font-weight: 400;
 	}
-	:global(.monster-400) {
+	:global(.monster-500) {
 		font-family: 'Montserrat', sans-serif;
-		font-weight: 400;
+		font-weight: 500;
 	}
 	:global(*) {
 		margin: 0;

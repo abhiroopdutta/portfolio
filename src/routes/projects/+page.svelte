@@ -21,8 +21,8 @@
 	{#each data as { title, year, desc, technologies, link }}
 		<article>
 			<header>
-				<p class="monster-400">{desc}</p>
-				<p class="monster-400">{year}</p>
+				<p class="monster-500">{desc}</p>
+				<p class="monster-500">{year}</p>
 			</header>
 			<main>
 				<h1 class="shoulder-600"><a href={link}>{title}</a></h1>
@@ -30,7 +30,7 @@
 			</main>
 			<ul>
 				{#each technologies as techonology}
-					<li class="monster-400">{techonology}</li>
+					<li class="monster-500">{techonology}</li>
 				{/each}
 			</ul>
 		</article>
