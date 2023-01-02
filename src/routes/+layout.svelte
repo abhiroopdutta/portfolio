@@ -3,9 +3,9 @@
 		<h2 class="logo shoulder-600">AbhiroopDutta&#8482;</h2>
 		<nav>
 			<button><span class="material-symbols-outlined"> dark_mode </span></button>
-			<a href="/">Home</a>
-			<a href="/projects">Projects</a>
-			<a href="/">About</a>
+			<a class="shoulder-800" href="/">Home</a>
+			<a class="shoulder-800" href="/projects">Projects</a>
+			<a class="shoulder-800" href="/">About</a>
 		</nav>
 	</div>
 	<slot />
@@ -28,20 +28,36 @@
 </svelte:head>
 
 <style>
-	.layout {
-		margin: min(20vh, 2rem) min(5vw, 4rem);
+	:root {
+		--app-color: #f8f8d5;
+		--font-color: #3c3c3c;
+		--container-1-color: rgb(253, 213, 196);
+		--container-1-color: rgb(248, 219, 255);
+	}
+	:global(.shoulder-800) {
+		font-family: 'Big Shoulders Display', cursive;
+		font-weight: 800;
+		color: var(--font-color);
 	}
 	:global(.shoulder-600) {
 		font-family: 'Big Shoulders Display', cursive;
 		font-weight: 600;
+		color: var(--font-color);
 	}
 	:global(.shoulder-400) {
 		font-family: 'Big Shoulders Display', cursive;
 		font-weight: 400;
+		color: var(--font-color);
 	}
 	:global(.monster-500) {
 		font-family: 'Montserrat', sans-serif;
 		font-weight: 500;
+		color: var(--font-color);
+	}
+	:global(.bungee) {
+		font-family: 'Bungee Shade', cursive;
+		font-weight: 400;
+		color: var(--font-color);
 	}
 	:global(*) {
 		margin: 0;
@@ -49,12 +65,20 @@
 		list-style: none;
 		text-decoration: none;
 	}
+	.layout {
+		margin: min(20vh, 2rem) min(5vw, 4rem);
+	}
+
+	:root {
+		background-color: var(--app-color);
+	}
 
 	.nav-container {
 		display: flex;
 		position: sticky;
 		top: min(20vh, 2rem);
 	}
+
 	.logo {
 		display: none;
 		line-height: 1;
@@ -78,13 +102,13 @@
 		align-items: center;
 		background-color: #ffffff;
 		padding: min(7vw, 0.6rem) 1rem;
-		border: 2px solid #3d3c3c;
+		border: 2px solid var(--font-color);
 		border-radius: 26px;
 		max-width: min(100vw, 20rem);
 	}
 	button {
 		border: none;
-		background-color: #fff;
+		background-color: transparent;
 		cursor: pointer;
 		display: flex;
 		align-items: flex-end;
@@ -94,10 +118,7 @@
 	}
 	a {
 		text-transform: uppercase;
-		font-family: 'Big Shoulders Display', cursive;
 		font-size: clamp(1rem, 1vw, 2rem);
-		font-weight: 800;
-		color: #3d3c3c;
 		padding: 0 min(7vw, 1rem);
 	}
 </style>

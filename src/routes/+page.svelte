@@ -8,31 +8,22 @@
 		<section class="name-skills">
 			<h1 class="name shoulder-600">Abhiroop</h1>
 			<ul>
-				<li>react</li>
-				<li>flask</li>
-				<li>mongo</li>
-				<li>mysql</li>
-				<li>docker</li>
-				<li>nginx</li>
-				<li>git</li>
-				<li>bash</li>
-				<li>aws ec2</li>
+				<li class="shoulder-600">react</li>
+				<li class="shoulder-600">flask</li>
+				<li class="shoulder-600">mongo</li>
+				<li class="shoulder-600">mysql</li>
+				<li class="shoulder-600">docker</li>
+				<li class="shoulder-600">nginx</li>
+				<li class="shoulder-600">git</li>
+				<li class="shoulder-600">bash</li>
+				<li class="shoulder-600">aws ec2</li>
 			</ul>
 		</section>
-		<address>India, 2023</address>
+		<address class="shoulder-600">India, 2023</address>
 	</article>
 </section>
 
 <style>
-	:root {
-		background-color: #fff5ba;
-	}
-
-	.bungee {
-		font-family: 'Bungee Shade', cursive;
-		font-weight: 400;
-	}
-
 	.home-page {
 		display: flex;
 		flex-direction: column;
@@ -75,8 +66,6 @@
 	}
 
 	li {
-		font-family: 'Big Shoulders Display', cursive;
-		font-weight: 600;
 		font-size: 4vh;
 		letter-spacing: 1rem;
 		text-transform: uppercase;
@@ -87,8 +76,6 @@
 	@media (min-width: 50em) {
 		address {
 			display: block;
-			font-family: 'Big Shoulders Display', cursive;
-			font-weight: 600;
 			font-size: 6vh;
 			font-style: normal;
 			text-transform: uppercase;

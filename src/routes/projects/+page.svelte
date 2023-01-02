@@ -25,7 +25,7 @@
 				<p class="monster-500">{year}</p>
 			</header>
 			<main>
-				<h1 class="shoulder-600"><a href={link}>{title}</a></h1>
+				<h1><a class="shoulder-600" href={link}>{title}</a></h1>
 				<span class="material-symbols-outlined"> link </span>
 			</main>
 			<ul>
@@ -63,7 +63,7 @@
 	}
 	main {
 		padding-block: 2rem;
-		border-top: 1px solid rgb(53, 53, 53);
+		border-top: 1px solid var(--font-color);
 		display: flex;
 		align-items: baseline;
 	}
@@ -83,7 +83,6 @@
 	p {
 		text-transform: uppercase;
 		font-size: clamp(1rem, 1vw, 2rem);
-		font-family: 'Montserrat', sans-serif;
 	}
 
 	ul {
@@ -95,9 +94,8 @@
 
 	li {
 		padding: 2px 16px;
-		border: 1px solid rgb(53, 53, 53);
+		border: 1px solid var(--font-color);
 		border-radius: 20px;
-		font-family: 'Montserrat', sans-serif;
 		font-size: clamp(0.8rem, 1vw, 1rem);
 		text-transform: uppercase;
 	}
