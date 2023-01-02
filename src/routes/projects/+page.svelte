@@ -44,13 +44,13 @@
 		gap: 2rem;
 	}
 	article {
-		background-color: rgb(253, 213, 196);
+		background-color: var(--container-1-color);
 		padding: 2rem 2rem;
 		border-radius: 26px;
 	}
 
 	article:nth-child(2) {
-		background-color: rgb(248, 219, 255);
+		background-color: var(--container-2-color);
 	}
 	header {
 		margin-top: 1rem;
@@ -62,7 +62,7 @@
 	}
 	main {
 		padding-block: 2rem;
-		border-top: 1px solid var(--font-color);
+		border-top: 2px solid var(--container-text-color);
 		display: flex;
 		align-items: baseline;
 	}
@@ -73,7 +73,7 @@
 	}
 
 	a {
-		color: rgb(53, 53, 53);
+		color: var(--container-text-color);
 	}
 	ul {
 		display: inline-block;
@@ -81,6 +81,7 @@
 
 	p {
 		text-transform: uppercase;
+		color: var(--container-text-color);
 		font-size: clamp(1rem, 1vw, 2rem);
 	}
 
@@ -93,9 +94,10 @@
 
 	li {
 		padding: 2px 16px;
-		border: 1px solid var(--font-color);
+		border: 1px solid var(--container-text-color);
 		border-radius: 20px;
 		font-size: clamp(0.8rem, 1vw, 1rem);
+		color: var(--container-text-color);
 		text-transform: uppercase;
 	}
 </style>

@@ -1,13 +1,12 @@
-<script>
-	<div class="nav-container">
-		<h2 class="logo shoulder-600">AbhiroopDutta&#8482;</h2>
-		<nav>
-			<button><span class="material-symbols-outlined"> dark_mode </span></button>
-			<a class="shoulder-800" href="/">Home</a>
-			<a class="shoulder-800" href="/projects">Projects</a>
-			<a class="shoulder-800" href="/">About</a>
-		</nav>
-	</div>
+<div class="nav-container">
+	<h2 class="logo shoulder-600">AbhiroopDutta&#8482;</h2>
+	<nav>
+		<button><span class="material-symbols-outlined"> dark_mode </span></button>
+		<a class="shoulder-800" href="/">Home</a>
+		<a class="shoulder-800" href="/projects">Projects</a>
+		<a class="shoulder-800" href="/">About</a>
+	</nav>
+</div>
 <div class="layout">
 	<slot />
 </div>
@@ -30,10 +29,13 @@
 
 <style>
 	:root {
-		--app-color: #f8f8d5;
-		--font-color: #3c3c3c;
-		--container-1-color: rgb(253, 213, 196);
-		--container-1-color: rgb(248, 219, 255);
+		--app-color: #d85c46;
+		--font-color: rgb(244, 233, 221);
+		--nav-color: rgb(244, 233, 221);
+		--nav-text-color: #d85c46;
+		--container-1-color: rgb(244, 233, 221);
+		--container-2-color: rgb(244, 233, 221);
+		--container-text-color: #d85c46;
 	}
 	:global(.shoulder-800) {
 		font-family: 'Big Shoulders Display', cursive;
@@ -72,7 +74,7 @@
 		padding-top: 2rem;
 	}
 
-	:root {
+	:global(body) {
 		background-color: var(--app-color);
 	}
 
@@ -81,6 +83,7 @@
 		position: sticky;
 		top: 0;
 		padding: min(2vh, 2rem) min(5vw, 3rem);
+		background-color: var(--app-color);
 	}
 
 	.logo {
@@ -104,9 +107,9 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		background-color: #ffffff;
+		background-color: var(--nav-color);
 		padding: min(7vw, 0.6rem) 1rem;
-		border: 2px solid var(--font-color);
+		border: 2px solid var(--app-color);
 		border-radius: 26px;
 		max-width: min(100vw, 20rem);
 	}
@@ -124,5 +127,6 @@
 		text-transform: uppercase;
 		font-size: clamp(1rem, 1vw, 2rem);
 		padding: 0 min(7vw, 1rem);
+		color: var(--nav-text-color);
 	}
 </style>
