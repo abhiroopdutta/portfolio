@@ -2,6 +2,7 @@
 	<div class="nav-container">
 		<h2 class="logo shoulder-600">AbhiroopDutta&#8482;</h2>
 		<nav>
+			<button><span class="material-symbols-outlined"> dark_mode </span></button>
 			<a href="/">Home</a>
 			<a href="/projects">Projects</a>
 			<a href="/">About</a>
@@ -15,6 +16,10 @@
 	<link
 		href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;600;800&family=Bungee+Shade&family=Montserrat:wght@500&display=swap"
 		rel="stylesheet"
+	/>
+	<link
+		rel="stylesheet"
+		href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
 	/>
 	<link
 		rel="stylesheet"
@@ -70,19 +75,29 @@
 	nav {
 		display: flex;
 		justify-content: space-between;
+		align-items: center;
 		background-color: #ffffff;
-		padding: 0.8rem 1rem;
+		padding: min(7vw, 0.6rem) 1rem;
 		border: 2px solid #3d3c3c;
 		border-radius: 26px;
 		max-width: min(100vw, 20rem);
 	}
-
+	button {
+		border: none;
+		background-color: #fff;
+		cursor: pointer;
+		display: flex;
+		align-items: flex-end;
+	}
+	span {
+		padding: 0 0 0 5px;
+	}
 	a {
 		text-transform: uppercase;
 		font-family: 'Big Shoulders Display', cursive;
 		font-size: clamp(1rem, 1vw, 2rem);
 		font-weight: 800;
 		color: #3d3c3c;
-		padding: 0 min(6vw, 1.5rem);
+		padding: 0 min(7vw, 1rem);
 	}
 </style>
