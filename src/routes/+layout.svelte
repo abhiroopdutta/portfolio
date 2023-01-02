@@ -1,7 +1,6 @@
 <div class="nav-container">
 	<h2 class="logo shoulder-600">AbhiroopDutta&#8482;</h2>
 	<nav>
-		<button><span class="material-symbols-outlined"> dark_mode </span></button>
 		<a class="shoulder-800" href="/">Home</a>
 		<a class="shoulder-800" href="/projects">Projects</a>
 		<a class="shoulder-800" href="/">About</a>
@@ -16,10 +15,6 @@
 	<link
 		href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;600;800&family=Bungee+Inline&family=Montserrat:wght@500&display=swap"
 		rel="stylesheet"
-	/>
-	<link
-		rel="stylesheet"
-		href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
 	/>
 	<link
 		rel="stylesheet"
@@ -112,16 +107,6 @@
 		border: 2px solid var(--app-color);
 		border-radius: 26px;
 		max-width: min(100vw, 20rem);
-	}
-	button {
-		border: none;
-		background-color: transparent;
-		cursor: pointer;
-		display: flex;
-		align-items: flex-end;
-	}
-	span {
-		padding: 0 0 0 5px;
 	}
 	a {
 		text-transform: uppercase;
