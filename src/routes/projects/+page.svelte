@@ -35,18 +35,23 @@
 			</ul>
 		</article>
 	{/each}
-	<article />
 </section>
 
 <style>
 	section {
-		margin: 4rem 0;
+		margin: 2rem 0;
 		display: flex;
 		flex-direction: column;
 		gap: 2rem;
 	}
 	article {
-		border-top: 1px solid rgb(53, 53, 53);
+		background-color: rgb(253, 213, 196);
+		padding: 2rem 2rem;
+		border-radius: 26px;
+	}
+
+	article:nth-child(2) {
+		background-color: rgb(248, 219, 255);
 	}
 	header {
 		margin-top: 1rem;
@@ -54,9 +59,11 @@
 		flex-wrap: wrap;
 		justify-content: space-between;
 		align-items: baseline;
+		margin-bottom: 1rem;
 	}
 	main {
-		margin-top: 2rem;
+		padding-block: 2rem;
+		border-top: 1px solid rgb(53, 53, 53);
 		display: flex;
 		align-items: baseline;
 	}

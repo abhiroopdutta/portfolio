@@ -29,7 +29,7 @@
 
 <style>
 	:root {
-		background-color: #ffd68e;
+		background-color: #fff5ba;
 	}
 
 	.bungee {
