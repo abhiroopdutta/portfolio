@@ -1,5 +1,5 @@
 <div class="nav-container">
-	<h2 class="logo shoulder-600">AbhiroopDutta&#8482;</h2>
+	<h2 class="logo shoulder-600">ABHIROOP&#8482;</h2>
 	<nav>
 		<a class="shoulder-800" href="/">Home</a>
 		<a class="shoulder-800" href="/projects">Projects</a>
@@ -79,18 +79,16 @@
 		top: 0;
 		padding: min(2vh, 2rem) min(5vw, 3rem);
 		background-color: var(--app-color);
+		justify-content: space-between;
+		align-items: center;
 	}
 
 	.logo {
-		display: none;
+		text-transform: uppercase;
 		line-height: 1;
 	}
 
 	@media (min-width: 40em) {
-		.nav-container {
-			justify-content: space-between;
-			align-items: center;
-		}
 		.logo {
 			display: block;
 			font-size: 2rem;
