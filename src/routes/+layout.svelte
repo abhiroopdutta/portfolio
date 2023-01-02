@@ -1,4 +1,4 @@
-<div class="layout">
+<script>
 	<div class="nav-container">
 		<h2 class="logo shoulder-600">AbhiroopDutta&#8482;</h2>
 		<nav>
@@ -8,6 +8,7 @@
 			<a class="shoulder-800" href="/">About</a>
 		</nav>
 	</div>
+<div class="layout">
 	<slot />
 </div>
 <svelte:head>
@@ -66,7 +67,9 @@
 		text-decoration: none;
 	}
 	.layout {
-		margin: min(20vh, 2rem) min(5vw, 4rem);
+		margin: 0 min(5vw, 3rem) min(2vh, 2rem) min(5vw, 3rem);
+		border-top: 2px solid var(--font-color);
+		padding-top: 2rem;
 	}
 
 	:root {
@@ -76,7 +79,8 @@
 	.nav-container {
 		display: flex;
 		position: sticky;
-		top: min(20vh, 2rem);
+		top: 0;
+		padding: min(2vh, 2rem) min(5vw, 3rem);
 	}
 
 	.logo {

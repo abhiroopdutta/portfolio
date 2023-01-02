@@ -38,11 +38,12 @@
 
 	.profession-first {
 		font-size: clamp(5rem, 6vw, 10rem);
-		line-height: 1.2;
+		line-height: 0.75;
 	}
 	.profession-last {
 		font-size: clamp(2.4rem, 6vw, 10rem);
-		line-height: 1.2;
+		padding-top: 1rem;
+		line-height: 1;
 	}
 
 	article {
