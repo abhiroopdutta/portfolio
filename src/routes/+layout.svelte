@@ -14,7 +14,7 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com" />
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 	<link
-		href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;600;800&family=Bungee+Shade&family=Montserrat:wght@500&display=swap"
+		href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;600;800&family=Bungee+Inline&family=Montserrat:wght@500&display=swap"
 		rel="stylesheet"
 	/>
 	<link
@@ -55,7 +55,7 @@
 		color: var(--font-color);
 	}
 	:global(.bungee) {
-		font-family: 'Bungee Shade', cursive;
+		font-family: 'Bungee Inline', cursive;
 		font-weight: 400;
 		color: var(--font-color);
 	}
