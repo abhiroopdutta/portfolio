@@ -25,11 +25,11 @@
 <style>
 	:root {
 		--app-color: #d85c46;
-		--font-color: rgb(244, 233, 221);
-		--nav-color: rgb(244, 233, 221);
+		--font-color: rgb(248, 235, 188);
+		--nav-color: rgb(248, 235, 188);
 		--nav-text-color: #d85c46;
-		--container-1-color: rgb(244, 233, 221);
-		--container-2-color: rgb(244, 233, 221);
+		--container-1-color: rgb(248, 235, 188);
+		--container-2-color: rgb(248, 235, 188);
 		--container-text-color: #d85c46;
 	}
 	:global(.shoulder-800) {
