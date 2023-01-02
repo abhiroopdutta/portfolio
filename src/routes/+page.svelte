@@ -1,30 +1,26 @@
-<section class="parent-section">
-	<section class="left-panel">
-		<header>
-			<h1 class="profession-first bungee">Web</h1>
-			<h1 class="profession-last bungee">Developer</h1>
-		</header>
+<section class="home-page">
+	<header>
+		<h1 class="profession-first bungee">Web</h1>
+		<h1 class="profession-last bungee">Developer</h1>
+	</header>
 
-		<article>
-			<section class="name-skills">
-				<h1 class="name shoulder-600">Abhiroop</h1>
-				<ul>
-					<li>react</li>
-					<li>flask</li>
-					<li>mongo</li>
-					<li>mysql</li>
-					<li>docker</li>
-					<li>nginx</li>
-					<li>git</li>
-					<li>bash</li>
-					<li>aws ec2</li>
-				</ul>
-			</section>
-			<address>India, 2023</address>
-		</article>
-	</section>
-
-	<section class="right-panel" />
+	<article>
+		<section class="name-skills">
+			<h1 class="name shoulder-600">Abhiroop</h1>
+			<ul>
+				<li>react</li>
+				<li>flask</li>
+				<li>mongo</li>
+				<li>mysql</li>
+				<li>docker</li>
+				<li>nginx</li>
+				<li>git</li>
+				<li>bash</li>
+				<li>aws ec2</li>
+			</ul>
+		</section>
+		<address>India, 2023</address>
+	</article>
 </section>
 
 <style>
@@ -37,18 +33,7 @@
 		font-weight: 400;
 	}
 
-	.right-panel {
-		display: none;
-	}
-
-	@media (min-width: 50em) {
-		.right-panel {
-			display: flex;
-			justify-content: flex-end;
-		}
-	}
-
-	.left-panel {
+	.home-page {
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
