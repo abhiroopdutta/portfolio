@@ -7,20 +7,20 @@
 		<img alt="A person standing on a dune during sunset." src={authorImage} />
 	</div>
 	<section class="monster-500 about">
-		Hi! I am Abhiroop.
-		<br />
-		I am a software developer.
-		<br />
-		I like building software that makes our lives easier.
-		<br />
-		I mainly do Frontend Development but I'm also interested in -
-		<br />
-		Designing, DevOps and Backend Development.
-		<br />
-		<br />
-		Reach me out at -
-		<br />
-		<br />
+		<p>
+			Hi! I am Abhiroop.
+			<br />
+			I am a software developer.
+			<br />
+			I like building software that makes our lives easier.
+			<br />
+			I mainly do Frontend Development but I'm also interested in -
+			<br />
+			Designing, DevOps and Backend Development.
+			<br />
+			<br />
+		</p>
+
 		<ul>
 			<li>
 				<svg
@@ -70,7 +70,6 @@
 				</address>
 			</li>
 		</ul>
-		<p />
 	</section>
 </section>
 
@@ -87,6 +86,7 @@
 		max-inline-size: 100%;
 		block-size: auto;
 		border-radius: 26px;
+		box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 	}
 
 	@media (min-width: 60em) {
@@ -96,6 +96,9 @@
 		.about-contact-container {
 			flex-direction: row;
 			gap: 2rem;
+		}
+		.about {
+			padding: 1rem 0;
 		}
 	}
 	ul {

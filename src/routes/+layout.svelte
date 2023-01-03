@@ -2,7 +2,6 @@
 	import { page } from '$app/stores';
 	let path;
 	$: path = $page.url.pathname;
-	$: console.log(path);
 </script>
 
 <div class="nav-container">
@@ -99,7 +98,6 @@
 		align-items: center;
 		background-color: var(--nav-color);
 		padding: min(7vw, 0.6rem) 1rem;
-		border: 2px solid var(--app-color);
 		border-radius: 26px;
 		max-width: min(100vw, 20rem);
 	}
