@@ -1,9 +1,16 @@
+<script>
+	import { page } from '$app/stores';
+	let path;
+	$: path = $page.url.pathname;
+	$: console.log(path);
+</script>
+
 <div class="nav-container">
 	<h2 class="logo shoulder-800">AD&#8482;</h2>
 	<nav>
-		<a class="shoulder-800" href="/">Home</a>
-		<a class="shoulder-800" href="/projects">Projects</a>
-		<a class="shoulder-800" href="/about">About</a>
+		<a class="shoulder-800" class:active={path === '/'} href="/">Home</a>
+		<a class="shoulder-800" class:active={path === '/projects'} href="/projects">Projects</a>
+		<a class="shoulder-800" class:active={path === '/about'} href="/about">About</a>
 	</nav>
 </div>
 <div class="layout">
@@ -101,5 +108,9 @@
 		font-size: clamp(1rem, 1vw, 2rem);
 		padding: 0 min(3vw, 1rem);
 		color: var(--nav-text-color);
+	}
+	a:hover,
+	.active {
+		text-decoration: underline;
 	}
 </style>
