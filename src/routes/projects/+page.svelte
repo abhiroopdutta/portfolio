@@ -4,14 +4,14 @@
 			title: 'ETyres',
 			year: '2021',
 			desc: 'Inventory/Invoicing App',
-			link: '',
+			link: 'https://github.com/abhiroopdutta/etyres',
 			technologies: ['React', 'Antd', 'Flask', 'Mongo', 'Docker']
 		},
 		{
 			title: 'Raaga',
 			year: '2022',
 			desc: 'Music Tutoring App',
-			link: '',
+			link: 'http://raagamedia.com/',
 			technologies: ['React', 'React-Query', 'Bootstrap', 'Django', 'Docker']
 		}
 	];
