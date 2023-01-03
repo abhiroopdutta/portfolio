@@ -1,9 +1,9 @@
 <div class="nav-container">
-	<h2 class="logo shoulder-600">ABHIROOP&#8482;</h2>
+	<h2 class="logo shoulder-600">AD&#8482;</h2>
 	<nav>
 		<a class="shoulder-800" href="/">Home</a>
 		<a class="shoulder-800" href="/projects">Projects</a>
-		<a class="shoulder-800" href="/">About</a>
+		<a class="shoulder-800" href="/about">About</a>
 	</nav>
 </div>
 <div class="layout">
