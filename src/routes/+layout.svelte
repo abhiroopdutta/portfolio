@@ -1,5 +1,5 @@
 <div class="nav-container">
-	<h2 class="logo shoulder-600">AD&#8482;</h2>
+	<h2 class="logo shoulder-800">AD&#8482;</h2>
 	<nav>
 		<a class="shoulder-800" href="/">Home</a>
 		<a class="shoulder-800" href="/projects">Projects</a>
@@ -66,7 +66,7 @@
 	.layout {
 		margin: 0 min(5vw, 3rem) min(2vh, 2rem) min(5vw, 3rem);
 		border-top: 2px solid var(--font-color);
-		padding-top: 2rem;
+		padding-top: min(2vh, 2rem);
 	}
 
 	:global(body) {
@@ -85,15 +85,9 @@
 
 	.logo {
 		text-transform: uppercase;
+		letter-spacing: 1px;
 		line-height: 1;
-	}
-
-	@media (min-width: 40em) {
-		.logo {
-			display: block;
-			font-size: 2rem;
-			letter-spacing: 1px;
-		}
+		font-size: clamp(1.5rem, 7vw, 2.5rem);
 	}
 
 	nav {
@@ -109,7 +103,7 @@
 	a {
 		text-transform: uppercase;
 		font-size: clamp(1rem, 1vw, 2rem);
-		padding: 0 min(7vw, 1rem);
+		padding: 0 min(3vw, 1rem);
 		color: var(--nav-text-color);
 	}
 </style>

@@ -78,7 +78,7 @@
 	.about-contact-container {
 		display: flex;
 		flex-direction: column;
-		gap: 2rem;
+		gap: 1rem;
 	}
 	div {
 		max-width: 80%;
@@ -95,6 +95,7 @@
 		}
 		.about-contact-container {
 			flex-direction: row;
+			gap: 2rem;
 		}
 	}
 	ul {
