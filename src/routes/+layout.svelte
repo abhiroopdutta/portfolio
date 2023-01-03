@@ -16,10 +16,6 @@
 		href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;600;800&family=Bungee+Inline&family=Montserrat:wght@500&display=swap"
 		rel="stylesheet"
 	/>
-	<link
-		rel="stylesheet"
-		href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
-	/>
 </svelte:head>
 
 <style>
