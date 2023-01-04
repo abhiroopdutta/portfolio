@@ -36,14 +36,30 @@
 		flex-direction: column;
 	}
 
+	@keyframes scatter {
+		0% {
+			transform: translate(0, 0);
+		}
+		50% {
+			transform: translate(0, 4px);
+		}
+		100% {
+			transform: translate(0, 0);
+		}
+	}
+
 	.profession-first {
 		font-size: clamp(5rem, 6vw, 10rem);
 		line-height: 0.75;
+		text-shadow: -0.07em 0.07em #873b2d;
+		animation: scatter 1.75s infinite;
 	}
 	.profession-last {
 		font-size: clamp(2.4rem, 6vw, 10rem);
 		padding-top: 1rem;
 		line-height: 1;
+		text-shadow: -0.07em 0.07em #873b2d;
+		animation: scatter 1.75s infinite reverse;
 	}
 
 	article {
