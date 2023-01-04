@@ -78,11 +78,16 @@
 	.nav-container {
 		display: flex;
 		position: sticky;
+		position: -webkit-sticky;
+		position: -moz-sticky;
+		position: -o-sticky;
+		position: -ms-sticky;
 		top: 0;
 		padding: min(2vh, 2rem) min(5vw, 3rem);
 		background-color: var(--app-color);
 		justify-content: space-between;
 		align-items: center;
+		z-index: 1000;
 	}
 
 	.logo {
