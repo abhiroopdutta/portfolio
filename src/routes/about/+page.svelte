@@ -4,7 +4,12 @@
 
 <section class="about-contact-container">
 	<div>
-		<img alt="A person standing on a dune during sunset." src={authorImage} />
+		<img
+			alt="A person standing on a dune during sunset."
+			src={authorImage}
+			width="2000"
+			height="3000"
+		/>
 	</div>
 	<section class="monster-500 about">
 		<p>
@@ -83,6 +88,7 @@
 	img {
 		max-inline-size: 100%;
 		block-size: auto;
+		aspect-ratio: 2/3;
 		border-radius: 26px;
 		box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 	}
